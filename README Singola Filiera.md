@@ -1,34 +1,4 @@
 
-**Struttura Cartella**
-.
-├── bin   
-├── config
-└── **CURSA**
-    ├── **compose**
-    │   ├── docker
-    │   └── podman
-    ├── **configtx**
-    ├── **monitordocker.sh**
-    ├── **network.sh**
-    ├── **organizations**
-    │   ├── ccp-generate.sh
-    │   ├── ccp-template.json
-    │   ├── ccp-template.yaml
-    │   ├── **cryptogen**
-    │   ├── **fabric-ca**
-    │   ├── **ordererOrganizations(#)**
-    │   └── **peerOrganizations(#)**
-    ├── **scripts**
-    │   ├── ccutils.sh
-    │   ├── configUpdate.sh
-    │   ├── createChannel.sh
-    │   ├── deployCCAAS.sh
-    │   ├── deployCC.sh
-    │   ├── envVar.sh
-    │   ├── pkgcc.sh
-    │   ├── setAnchorPeer.sh (non usato)
-    │   └── utils.sh
-    └── setOrgEnv.sh
 
 **Cartelle**
 Struttura della cartella di progetto. Alcune parti non sono state ancora guardate in modo approfondito. Il meccanismo delle certificazioni e delle chiavi non mi è ancora molto chiaro, quindi alcune frasi potrebbero essere imprecise o sbagliate. 
